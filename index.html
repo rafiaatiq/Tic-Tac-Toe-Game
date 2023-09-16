@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <h2>TIC TAC TOE</h2>
+    <h3 class="game_status"></h3>
+    <div class="container"> 
+        <div  class="boxes left bottom cell box" data-cell-index="0" type="button"></div>
+        <div  class="boxes bottom cell" data-cell-index="1" type="button"> </div>
+        <div id="box" class="boxes right bottom cell" data-cell-index="2" type="button"></div>
+        
+        <div id="box" class="boxes left bottom cell" data-cell-index="3" type="button"> </div>
+        <div id="box" class="boxes bottom cell" data-cell-index="4" type="button"> </div>
+        <div id="box" class="boxes right bottom cell" data-cell-index="5" type="button"> </div>
+
+        <div id="box" class="boxes left cell" data-cell-index="6" type="button"></div>
+        <div id="box" class="boxes cell" data-cell-index="7" type="button"> </div>
+        <div id="box" class="boxes right cell" data-cell-index="8" type="button"></div>
+
+        <div class="strike"></div>
+    </div>
+
+    <div class="count">
+        <div class="X">
+            <h4 class="x"><span>X</span> won = </h4>
+        </div>
+        
+        <div class="O">
+            <h4 class="o"><span>O</span> won = </h4>
+        </div>
+    </div>
+    
+
+    
+    <div class="btnContainer">
+        <button class="btn">Restart Game</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

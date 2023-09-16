@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    /* background-color: brown; */
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.X{
+    margin-right: 6rem;
+}
+.O{
+    margin-left:2rem;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.1rem;
+}
+h4 span{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.boxes{
+    height: 133px;
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.left{
+    border-right: 3px solid black;
+}
+.right{
+    border-left:3px solid black ;
+}
+.bottom{
+    border-bottom: 3px solid black;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.btn{
+    padding: 0.79rem 1.8rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.55rem;
+}
+.win{
+    color: rgb(255, 17, 0);
+}
+
+@media (max-width:390px) {
+    h2{
+        margin-top: 5rem;
+    }
+    .container{
+        height: 300px;
+        width: 300px;
+    }
+
+    .boxes{
+        height: 100px;
+        width: 100px;
+    }
+    h4{
+        font-size: 1.1rem;
+    }
+    h4 span{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:375px) {
+    h2{
+        margin-top: 2rem;
+    }
+}
+/* h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
